@@ -925,6 +925,15 @@ footer {
 	cursor: pointer;
 	margin: 0px 5px;
 }
+
+#audioPlayer{
+	position: absolute; /* Posicionamiento relativo a su contenedor o a la ventana */
+    left:150px;        /* Mover a la izquierda (ajusta el valor según tu necesidad) */
+    top: 37px;         /* Mover hacia abajo */
+    transform: translate(-50%, -50%); /* Centrado opcional */
+
+}
+
 #portfolio{
 background: #DBDBDB;	
 	}
