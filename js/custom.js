@@ -1,5 +1,5 @@
 // Custom Script
-// Developed by: Samson.Onna
+
 var customScripts = {
     profile: function () {
         // portfolio
@@ -145,6 +145,33 @@ $('document').ready(function () {
 			textSize: 54,
 			textColor: '#1a1a1a'
 		});
+        $('#diagram-id-4').diagram({ 
+			size: "190",
+			borderWidth: "10",
+			bgFill: "#95a5a6",
+			frFill: "#3498db",
+			textSize: 54,
+			textColor: '#1a1a1a'
+		});
+        $('#diagram-id-5').diagram({ 
+			size: "189",
+			borderWidth: "10",
+			bgFill: "#95a5a6",
+			frFill: "#3498db",
+			textSize: 54,
+			textColor: '#1a1a1a'
+		});
+
+        $('#diagram-id-6').diagram({ 
+			size: "189",
+			borderWidth: "10",
+			bgFill: "#95a5a6",
+			frFill: "#3498db",
+			textSize: 54,
+			textColor: '#1a1a1a'
+		});
+
+
 		$(window).load(function() { 
 			  $('#filter .current').trigger('click');
 		});
